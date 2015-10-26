@@ -29,8 +29,6 @@ class NewEventViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         
-        
-        
         if segue.identifier == "add"{
             var svc = segue.destinationViewController as! ViewController;
             
@@ -38,7 +36,6 @@ class NewEventViewController: UIViewController {
             svc.toPassMonth = monthTextField.text;
             svc.toPassEvent = eventTextField.text;
             
-
             
             
         }

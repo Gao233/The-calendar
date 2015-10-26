@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3036E3A21BDEB75A009B78CD /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036E3A11BDEB75A009B78CD /* WeekViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		303994A91BDD852A0004C949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303994A81BDD852A0004C949 /* AppDelegate.swift */; };
 		303994AB1BDD852A0004C949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303994AA1BDD852A0004C949 /* ViewController.swift */; };
 		303994AE1BDD852A0004C949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303994AC1BDD852A0004C949 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3036E3A11BDEB75A009B78CD /* WeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
 		303994A51BDD852A0004C949 /* CalendarApp407.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarApp407.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303994A81BDD852A0004C949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303994AA1BDD852A0004C949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,9 +111,10 @@
 			children = (
 				303994D61BDD868E0004C949 /* img */,
 				303994AC1BDD852A0004C949 /* Main.storyboard */,
+				3036E3A11BDEB75A009B78CD /* WeekViewController.swift */,
+				303994AA1BDD852A0004C949 /* ViewController.swift */,
 				303994E71BDD9F120004C949 /* NewEventViewController.swift */,
 				303994A81BDD852A0004C949 /* AppDelegate.swift */,
-				303994AA1BDD852A0004C949 /* ViewController.swift */,
 				303994E31BDD8D0D0004C949 /* TableViewCell.swift */,
 				303994E41BDD8D0D0004C949 /* TableViewCell.xib */,
 				303994AF1BDD852A0004C949 /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3036E3A21BDEB75A009B78CD /* WeekViewController.swift in Sources */,
 				303994E51BDD8D0D0004C949 /* TableViewCell.swift in Sources */,
 				303994AB1BDD852A0004C949 /* ViewController.swift in Sources */,
 				303994E81BDD9F120004C949 /* NewEventViewController.swift in Sources */,

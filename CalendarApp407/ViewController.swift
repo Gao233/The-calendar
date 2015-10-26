@@ -52,7 +52,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        self.navigationItem.title = "Costumized Calendars"
         self.navigationItem.setHidesBackButton(true, animated:true);
         tableView.delegate = self
         tableView.dataSource = self
@@ -97,15 +97,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         return cell
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
-        navigationItem.title = nil
-        
-        if segue.identifier == "add"{
-            navigationItem.title = "Add New Event"
-        }
-       
-    }
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == UITableViewCellEditingStyle.Delete {
